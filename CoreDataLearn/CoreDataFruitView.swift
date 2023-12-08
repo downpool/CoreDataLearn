@@ -19,7 +19,7 @@ class CoreDataFruitViewModel: ObservableObject {
             if let error = error {
                 print("Error loading Core Data. \(error)")
             }
-        }
+        } 
         
         fetchFruits()
     }
